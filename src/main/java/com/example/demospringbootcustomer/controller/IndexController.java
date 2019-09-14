@@ -17,4 +17,11 @@ public class IndexController {
         return "ok";
     }
 
+
+    @GetMapping("/jsp")
+    public String helloJsp(){
+
+        return "index";
+    }
+
 }
